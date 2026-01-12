@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  /* Core Brand Colors */
+  --color-asphalt-950: oklch(0.15 0 0);    /* Deepest black for backgrounds */
+  --color-asphalt-900: oklch(0.25 0 0);    /* Secondary dark for cards/elevated surfaces */
+  
+  --color-chrome-400: oklch(0.80 0 0);     /* Bright silver for borders/accents */
+  --color-chrome-500: oklch(0.70 0 0);     /* Mid-tone metallic gray */
+  
+  --color-divine-white: oklch(0.98 0 0);   /* Primary text color for maximum legibility */
+
+  /* Gold Feature Colors (Primary Accent) */
+  --color-gold-50: oklch(0.97 0.05 90);
+  --color-gold-500: oklch(0.80 0.15 85); /* The Gold feature color */
+  --color-gold-900: oklch(0.40 0.10 75);
+
+  /* Functional Mappings */
+  --color-primary: var(--color-chrome-400);
+  --color-background: var(--color-asphalt-950);
+
+  /* --- GREYS (Neutral UI Elements) --- */
+  /* Used for text, backgrounds, and form controls */
+  --color-slate-50: oklch(0.98 0.01 247);
+  --color-slate-100: oklch(0.96 0.01 247);
+  --color-slate-200: oklch(0.92 0.01 247);
+  --color-slate-300: oklch(0.87 0.01 247);
+  --color-slate-400: oklch(0.70 0.01 247);
+  --color-slate-500: oklch(0.55 0.02 247);
+  --color-slate-600: oklch(0.44 0.02 247);
+  --color-slate-700: oklch(0.32 0.02 247);
+  --color-slate-800: oklch(0.23 0.02 247);
+  --color-slate-900: oklch(0.15 0.02 247); /* Deepest grey, no true black */
+
+  /* --- SEMANTIC ACCENTS (Status / Categories) --- */
+  /* Red: Destructive / Errors */
+  --color-error-50: oklch(0.97 0.01 17);
+  --color-error-500: oklch(0.63 0.23 27);
+  --color-error-900: oklch(0.35 0.12 28);
+
+    /* Yellow: Warnings / Eye-catching */
+  --color-alert-50: oklch(0.98 0.02 95);
+  --color-alert-500: oklch(0.84 0.18 85);
+  --color-alert-900: oklch(0.42 0.09 75);
+}
+
+@font-face {
+  font-family: 'Lohengrin';
+  src: url('/src/Lohengrin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-brand: "Lohengrin", cursive;
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+}
+
+
+
+@layer base {
+  body {
+    background-color: var(--color-asphalt-950);
+    color: var(--color-divine-white);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-sans);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+  }
+
+  /* Use the custom Lohengrin font for specific 'Brand' headlines or accents */
+  .font-headline {
+    font-family: var(--font-brand);
+  }
+}
