@@ -32,16 +32,6 @@
   --color-slate-800: oklch(0.23 0.02 247);
   --color-slate-900: oklch(0.15 0.02 247); /* Deepest grey, no true black */
 
-  /* --- SEMANTIC ACCENTS (Status / Categories) --- */
-  /* Red: Destructive / Errors */
-  --color-error-50: oklch(0.97 0.01 17);
-  --color-error-500: oklch(0.63 0.23 27);
-  --color-error-900: oklch(0.35 0.12 28);
-
-    /* Yellow: Warnings / Eye-catching */
-  --color-alert-50: oklch(0.98 0.02 95);
-  --color-alert-500: oklch(0.84 0.18 85);
-  --color-alert-900: oklch(0.42 0.09 75);
 }
 
 @font-face {
