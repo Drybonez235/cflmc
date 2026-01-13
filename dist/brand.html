@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System Style Guide</title>
+  <link rel="stylesheet" crossorigin href="/assets/style-BcIq04QJ.css">
+</head>
+<body class="text-divine-white bg-asphalt-950 min-h-dvh p-8 lg:p-16">
+
+  <main class="max-w-5xl mx-auto flex flex-col gap-16">
+    
+    <header class="border-b border-slate-200 pb-8">
+      <h1 class="text-3xl font-bold tracking-tight text-brand-900">Design System Guide</h1>
+      <p class="text-lg/8 text-shadow-divine-white">Tailwind CSS v4.1 Implementation</p>
+    </header>
+
+    <section class="flex flex-col gap-6">
+      <h2 class="text-xl font-semibold text-divine-white">Typography & Line Heights</h2>
+      <div class="grid gap-4 p-6 bg-white rounded-xl shadow-sm border border-slate-200 text-slate-800">
+        <p class="text-xs/4"><strong>text-xs/4 (12px):</strong> The quick brown fox jumps over the lazy dog.</p>
+        <p class="text-sm/5"><strong>text-sm/5 (14px):</strong> The quick brown fox jumps over the lazy dog.</p>
+        <p class="text-base/7"><strong>text-base/7 (16px):</strong> The quick brown fox jumps over the lazy dog.</p>
+        <p class="text-lg/8"><strong>text-lg/8 (18px):</strong> The quick brown fox jumps over the lazy dog.</p>
+        <p class="text-xl/7"><strong>text-xl/7 (20px):</strong> The quick brown fox jumps over the lazy dog.</p>
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-6 font-headline">
+      <h2 class="text-xl font-semibold text-divine-white font-headline">HEADLINE TYPOGRAPHY & LINE HEIGHTS</h2>
+      <div class="grid gap-4 p-6 bg-white rounded-xl shadow-sm border border-slate-200 text-slate-800">
+        <p class="text-2xl/9"><strong>text-xl/7 (20px):</strong> The quick brown fox jumps over the lazy dog.</p>
+        <p class="text-3xl/10"><strong>text-xl/7 (20px):</strong> The quick brown fox jumps over the lazy dog.</p>
+        <p class="text-4xl/11"><strong>text-xl/7 (20px):</strong> The quick brown fox jumps over the lazy dog.</p>
+        <p class="text-5xl/12"><strong>text-xl/7 (20px):</strong> The quick brown fox jumps over the lazy dog.</p>
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-8">
+      <h2 class="text-xl font-semibold text-divine-white">Color Palette</h2>
+
+      <div>
+        <h3 class="text-sm font-medium text-shadow-divine-white mb-4 uppercase tracking-wider">Neutral Greys</h3>
+        <div class="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-2">
+          <div class="flex flex-col gap-1"><div class="size-12 rounded-sm bg-slate-50 border border-slate-200"></div><span class="text-[10px]">50</span></div>
+          <div class="flex flex-col gap-1"><div class="size-12 rounded-sm bg-slate-100"></div><span class="text-[10px]">100</span></div>
+          <div class="flex flex-col gap-1"><div class="size-12 rounded-sm bg-slate-200"></div><span class="text-[10px]">200</span></div>
+          <div class="flex flex-col gap-1"><div class="size-12 rounded-sm bg-slate-300"></div><span class="text-[10px]">300</span></div>
+          <div class="flex flex-col gap-1"><div class="size-12 rounded-sm bg-slate-400"></div><span class="text-[10px]">400</span></div>
+          <div class="flex flex-col gap-1"><div class="size-12 rounded-sm bg-slate-500"></div><span class="text-[10px]">500</span></div>
+          <div class="flex flex-col gap-1"><div class="size-12 rounded-sm bg-slate-600"></div><span class="text-[10px]">600</span></div>
+          <div class="flex flex-col gap-1"><div class="size-12 rounded-sm bg-slate-700"></div><span class="text-[10px]">700</span></div>
+          <div class="flex flex-col gap-1"><div class="size-12 rounded-sm bg-slate-800"></div><span class="text-[10px]">800</span></div>
+          <div class="flex flex-col gap-1"><div class="size-12 rounded-sm bg-slate-900"></div><span class="text-[10px]">900</span></div>
+        </div>
+      </div>
+
+    
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-sm font-medium text-error-500 mb-4 uppercase tracking-wider">Error / Destructive</h3>
+          <div class="flex gap-2">
+            <div class="size-12 rounded-sm bg-error-50 border border-error-500/10"></div>
+            <div class="size-12 rounded-sm bg-error-500"></div>
+            <div class="size-12 rounded-sm bg-error-900"></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gold-500 mb-4 uppercase tracking-wider">Feature / Gold</h3>
+          <div class="flex gap-2">
+            <div class="size-12 rounded-sm bg-gold-50 border border-alert-500/10"></div>
+            <div class="size-12 rounded-sm bg-gold-500"></div>
+            <div class="size-12 rounded-sm bg-gold-900"></div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-6">
+      <h2 class="text-xl font-semibold text-divine-white">Applied Examples</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        
+        <div class="p-6 bg-white rounded-xl shadow-sm border border-slate-200 flex flex-col gap-4">
+          <span class="text-[10px] font-bold uppercase tracking-widest text-slate-800">New Category</span>
+          <h4 class="text-lg/6 font-bold text-slate-600">Refined Brand Styles</h4>
+          <p class="text-sm/6 text-slate-600">This card uses the <strong>size-12</strong> utility and <strong>gap-4</strong> for internal spacing.</p>
+          <button class="bg-brand-600 text-white text-sm font-medium px-4 py-2 rounded-sm hover:bg-brand-700 transition-colors cursor-pointer">
+            Primary Action
+          </button>
+        </div>
+
+        <div class="p-6 bg-error-50 rounded-xl border border-error-500/20 flex flex-col gap-2">
+          <h4 class="text-lg/6 font-bold text-error-900">Danger Zone</h4>
+          <p class="text-sm/6 text-error-900/80">Using the modern <strong>/opacity</strong> modifier for text colors and background borders.</p>
+          <div class="flex gap-3 mt-2">
+            <button class="text-xs font-bold text-error-900 underline underline-offset-4">Cancel Account</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-6">
+      <h2 class="text-2xl font-bold text-chrome-400">Typography</h2>
+      <div class="grid gap-8 p-8 bg-asphalt-900 rounded-xl border border-chrome-500/10">
+        <div>
+          <span class="text-[10px] uppercase tracking-tighter text-chrome-500 mb-2 block">Brand Headline (Lohengrin)</span>
+          <p class="font-headline text-4xl">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div>
+          <span class="text-[10px] uppercase tracking-tighter text-chrome-500 mb-2 block">Standard Sans (Inter)</span>
+          <p class="text-base/7">This is your body font at <strong>text-base/7</strong>. It provides maximum legibility against the asphalt background.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-8">
+      <h2 class="text-2xl font-bold text-chrome-400">Color Palette</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="flex flex-col gap-3">
+          <div class="size-24 rounded-sm bg-asphalt-950 border border-chrome-500/20 shadow-sm"></div>
+          <div>
+            <p class="text-sm font-bold">Asphalt 950</p>
+            <p class="text-xs text-chrome-500">Main Background</p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <div class="size-24 rounded-sm bg-chrome-400 shadow-sm"></div>
+          <div>
+            <p class="text-sm font-bold text-chrome-400">Chrome 400</p>
+            <p class="text-xs text-chrome-500">Primary Accent</p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <div class="size-24 rounded-sm bg-divine-white shadow-sm"></div>
+          <div>
+            <p class="text-sm font-bold text-divine-white">Divine White</p>
+            <p class="text-xs text-chrome-500">Primary Text</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-medium text-gold-500 mb-4 uppercase tracking-widest">Feature Accent: Gold</h3>
+        <div class="flex gap-4">
+          <div class="flex flex-col items-center gap-1">
+            <div class="size-16 rounded-sm bg-gold-50"></div>
+            <span class="text-[10px]">50</span>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <div class="size-16 rounded-sm bg-gold-500"></div>
+            <span class="text-[10px]">500</span>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <div class="size-16 rounded-sm bg-gold-900"></div>
+            <span class="text-[10px]">900</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-6">
+      <h2 class="text-2xl font-bold text-chrome-400">UI Implementation</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        
+        <div class="p-8 bg-asphalt-900 rounded-2xl border border-gold-500/20 flex flex-col gap-4">
+          <h4 class="font-headline text-2xl text-gold-500">Exclusive Access</h4>
+          <p class="text-sm/6 text-chrome-400">Using the <strong>gold-500/20</strong> border modifier for a subtle metallic glow.</p>
+          <button class="bg-gold-500 text-asphalt-950 text-xs font-bold py-3 rounded-sm hover:bg-gold-500/90 transition-all cursor-pointer uppercase tracking-widest">
+            Unlock Now
+          </button>
+        </div>
+
+        <div class="p-8 bg-asphalt-900 rounded-2xl border border-chrome-500/10 flex flex-col gap-6">
+          <div class="flex gap-4">
+            <div class="size-10 rounded-full bg-chrome-400 flex items-center justify-center text-asphalt-950 font-bold">1</div>
+            <div>
+              <h4 class="text-base font-bold text-divine-white">System Status</h4>
+              <p class="text-xs text-chrome-500">All modules operational</p>
+            </div>
+          </div>
+          <div class="h-1 bg-chrome-500/10 w-full rounded-full overflow-hidden">
+            <div class="bg-chrome-400 h-full w-3/4"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
+      --
