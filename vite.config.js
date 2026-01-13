@@ -14,10 +14,6 @@ export default defineConfig({
       input: {
         index: resolve(__dirname, 'index.html'),
         brand: resolve(__dirname, 'brand.html'),
-        about: resolve(__dirname, 'about.html'),
-        contact: resolve(__dirname, 'contact.html'),
-        events: resolve(__dirname, 'events.html'),
-        gallery: resolve(__dirname, 'gallery.html'),
       },
     },
   },
