@@ -16,7 +16,7 @@
   --color-gold-900: oklch(0.40 0.10 75);
 
   /* Functional Mappings */
-  --color-primary: var(--color-chrome-400);
+--color-primary: var(--color-gold-500);
   --color-background: var(--color-asphalt-950);
 
   /* --- GREYS (Neutral UI Elements) --- */
@@ -66,5 +66,14 @@
   /* Use the custom Lohengrin font for specific 'Brand' headlines or accents */
   .font-headline {
     font-family: var(--font-brand);
+  }
+}
+
+/* Add this to your style.css @layer base block */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* This ensures snap targets also animate smoothly */
+    /* scroll-padding-top: 2rem;  */
   }
 }
