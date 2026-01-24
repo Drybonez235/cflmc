@@ -4,28 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Christ For Life MC</title>
-  <link rel="stylesheet" crossorigin href="/cflmc/assets/style-XdZqV_nj.css">
+  <link rel="stylesheet" crossorigin href="/assets/style-RgE2-s-U.css">
 </head>
-
 <body class="bg-asphalt-950 text-divine-white snap-y snap-always antialiased">
+  <nav class="hidden md:block sticky top-0 z-50 w-full border-b border-chrome-400/20 bg-asphalt-950/80 backdrop-blur-md">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    
+    <a href="/" class="group flex items-center gap-3">
+      <span class="font-headline text-2xl tracking-tight text-divine-white group-hover:text-gold-500 transition-colors">
+        Christ For Life
+      </span>
+    </a>
 
-  <section id="hero" class="relative flex min-h-dvh flex-col items-center justify-between overflow-hidden px-4 py-8 text-center snap-center">
-  <div class="z-10 mb-8">
+    <div class="hidden items-center gap-8 md:flex">
+      <a href="/support.html" class="text-sm font-bold uppercase tracking-widest text-slate-300 transition-colors hover:text-gold-500">
+        Ministry Support
+      </a>
+      <a href="/legacy.html" class="text-sm font-bold uppercase tracking-widest text-slate-300 transition-colors hover:text-gold-500">
+        Legacy Wall
+      </a>
+      <a href="/prayer.html" class="text-sm font-bold uppercase tracking-widest text-slate-300 transition-colors hover:text-gold-500">
+        Prayer Requests
+      </a>
+      
+      <a href="/contact" class="rounded-xs border border-gold-500 px-5 py-2 text-xs font-bold uppercase tracking-widest text-gold-500 transition-all hover:bg-gold-500 hover:text-asphalt-950">
+        Get Involved
+      </a>
+    </div>
+
+    <button class="md:hidden text-gold-500">
+      <svg class="size-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+    </button>
+  </div>
+</nav>
+
+<main class="">
+
+  <section id="hero" class="relative flex min-h-dvh flex-col items-center justify-between overflow-hidden px-4 pt-10 text-center snap-start scroll-mt-20">
+  <div class="z-10">
     <h1 class="font-headline text-5xl/14 md:text-7xl/18 text-divine-white">
       Christ For Life Motorcycle Ministry
     </h1>
   </div>
 
-  <div class="absolute inset-0 -z-10">
+  <div class="absolute inset-0 -z-10 py-36">
     <img 
-      src="/cflmc/christ-for-life-graphic.jpg" 
+      src="/christ-for-life-graphic.png" 
       alt="Christ For Life Motorcycle Club Graphic" 
       class="size-full object-contain opacity-100"
     />
     <div class="absolute inset-0 bg-linear-to-b from-asphalt-950/20 via-asphalt-950/60 to-asphalt-950"></div>
   </div>
 
-  <div class="absolute bottom-8 left-1/2 z-10 -translate-x-1/2">
+  <div class="absolute bottom-24 left-1/2 z-10 -translate-x-1/2">
   <a href="#motto" class="flex flex-col items-center gap-1">
     <span class="font-sans text-[10px] font-extrabold tracking-[0.2em] uppercase text-chrome-400 opacity-70">Our Motto</span>
       <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -37,13 +70,13 @@
 
 <section id="motto" class="relative flex min-h-dvh flex-col items-center justify-center overflow-hidden px-6 text-center snap-center bg-asphalt-950">
 
-  <div class="absolute top-8 left-1/2 z-10 -translate-x-1/2">
+  <!-- <div class="absolute top-8 left-1/2 z-10 -translate-x-1/2">
   <a href="#hero" class="flex flex-col items-center gap-1 ">
     <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7" />
     </svg>
   </a>
-</div>
+</div> -->
 
   <div class="flex max-w-4xl flex-col items-center gap-12">
     <blockquote class="flex flex-col gap-8">
@@ -70,7 +103,8 @@
 </section>
 
  <section id="mission" class="snap-center relative flex min-h-dvh flex-col items-center justify-center overflow-hidden px-8 text-center">
-  <div class="absolute top-8 left-1/2 z-10 -translate-x-1/2">
+  
+  <!-- <div class="absolute top-8 left-1/2 z-10 -translate-x-1/2">
   <a 
     href="#motto" 
     class="group flex flex-col items-center gap-1 transition-opacity hover:opacity-100 opacity-70"
@@ -79,12 +113,13 @@
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7" />
     </svg>
   </a>
-</div> 
+</div>  -->
+
   <div class="absolute inset-0 -z-10">
     <img 
-      src="/cflmc/christ-for-life-motercycle-in-front-of-cross-portrate.jpg" 
+      src="/christ-for-life-motercycle-in-front-of-cross-portrate.jpg" 
       alt="Motorcycle in front of cross" 
-      class="size-full object-cover opacity-100"
+      class="size-full object-contain opacity-100"
     />
     <div class="absolute inset-0 bg-linear-to-t from-asphalt-950 via-asphalt-950/40 to-asphalt-950/80"></div>
   </div>
@@ -120,36 +155,20 @@
 </section>
 
 <section id="events" class="relative flex min-h-dvh flex-col justify-center bg-asphalt-950 py-12 snap-center">
-  
-  <div class="absolute top-8 left-1/2 z-10 -translate-x-1/2">
-  <a 
-    href="#mission" 
-    class="group flex flex-col items-center gap-1 transition-opacity hover:opacity-100 opacity-70"
-  >
-    <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7" />
-    </svg>
-  </a>
-</div>
 
-  <div class="mb-8 px-8">
+  <div class="mb-8 px-8 max-w-7xl mx-auto w-full">
     <h2 class="text-gold-500 font-sans text-xs font-black tracking-[0.3em] uppercase mb-2">
       Upcoming Runs & Rallies
     </h2>
     <div class="h-1 w-12 bg-gold-500"></div>
   </div>
-  
 
-
-    <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-2 top-1/2 z-20 -translate-y-1/2 size-6 transition-all hover:scale-110 active:scale-95" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-    </svg>
-
-  <div class="flex snap-x snap-mandatory overflow-x-auto gap-6 px-8  pb-20  no-scrollbar">
-    <div class="relative min-w-[85vw] snap-center rounded-sm border border-slate-800 bg-asphalt-900 p-8">
+  <div class="flex snap-x snap-mandatory overflow-x-auto gap-6 px-8 pb-20 no-scrollbar md:grid md:grid-cols-3 md:overflow-visible md:snap-none max-w-7xl mx-auto w-full">
+    
+    <div class="relative min-w-[85vw] md:min-w-0 snap-center rounded-sm border border-slate-800 bg-asphalt-900 p-8 transition-transform hover:border-gold-500/50">
       <span class="text-chrome-400 font-sans text-xs font-bold uppercase tracking-widest">Run</span>
       <h3 class="font-headline text-gold-500 my-4 text-4xl">Spring Fellowship Ride</h3>
-    
+      
       <div class="flex flex-col gap-4 mt-8">
         <div class="flex items-center gap-3">
           <div class="size-2 bg-gold-500 rotate-45"></div>
@@ -165,125 +184,116 @@
         </div>
       </div>
 
-      <div class="absolute -bottom-10 left-1/2 flex -translate-x-1/2 items-center gap-2">
+      <div class="absolute -bottom-10 left-1/2 flex -translate-x-1/2 items-center gap-2 md:hidden">
         <div class="size-1.5 rounded-full bg-gold-500"></div>
         <div class="size-1.5 rounded-full bg-slate-700"></div> 
         <div class="size-1.5 rounded-full bg-slate-700"></div>
       </div>
     </div>
 
-      <div class="relative min-w-[85vw] snap-center rounded-sm border border-slate-800 bg-asphalt-900 p-8">
-        <span class="text-chrome-400 font-sans text-xs font-bold uppercase tracking-widest">Community</span>
-        <h3 class="font-headline text-gold-500 my-4 text-4xl">Iron & Grace BBQ</h3>
-        
-        <div class="flex flex-col gap-4 mt-8">
-          <div class="flex items-center gap-3">
-            <div class="size-2 bg-gold-500 rotate-45"></div>
-            <p class="text-divine-white font-bold">April 02, 2026</p>
-          </div>
-          <div class="flex items-center gap-3">
-            <div class="size-2 bg-chrome-500 rotate-45"></div>
-            <p class="text-slate-300">1:00 PM — Food & Testimony</p>
-          </div>
-          <div class="flex items-center gap-3">
-            <div class="size-2 bg-chrome-500 rotate-45"></div>
-            <p class="text-slate-300">Central Park South Pavillion</p>
-          </div>
+    <div class="relative min-w-[85vw] md:min-w-0 snap-center rounded-sm border border-slate-800 bg-asphalt-900 p-8 transition-transform hover:border-gold-500/50">
+      <span class="text-chrome-400 font-sans text-xs font-bold uppercase tracking-widest">Community</span>
+      <h3 class="font-headline text-gold-500 my-4 text-4xl">Iron & Grace BBQ</h3>
+      
+      <div class="flex flex-col gap-4 mt-8">
+        <div class="flex items-center gap-3">
+          <div class="size-2 bg-gold-500 rotate-45"></div>
+          <p class="text-divine-white font-bold">April 02, 2026</p>
         </div>
-        <div class="absolute -bottom-10 left-1/2 flex -translate-x-1/2 items-center gap-2">
+        <div class="flex items-center gap-3">
+          <div class="size-2 bg-chrome-500 rotate-45"></div>
+          <p class="text-slate-300">1:00 PM — Food & Testimony</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="size-2 bg-chrome-500 rotate-45"></div>
+          <p class="text-slate-300">Central Park South Pavillion</p>
+        </div>
+      </div>
+      <div class="absolute -bottom-10 left-1/2 flex -translate-x-1/2 items-center gap-2 md:hidden">
         <div class="size-1.5 rounded-full bg-slate-700"></div>
         <div class="size-1.5 rounded-full bg-gold-500"></div> 
         <div class="size-1.5 rounded-full bg-slate-700"></div>
       </div>
-      </div>
+    </div>
 
-      <div class="relative min-w-[85vw] snap-center rounded-sm border border-slate-800 bg-asphalt-900 p-8">
-        <span class="text-chrome-400 font-sans text-xs font-bold uppercase tracking-widest">Service</span>
-        <h3 class="font-headline text-gold-500 my-4 text-4xl">Annual Charity Rally</h3>
-        
-        <div class="flex flex-col gap-4 mt-8">
-          <div class="flex items-center gap-3">
-            <div class="size-2 bg-gold-500 rotate-45"></div>
-            <p class="text-divine-white font-bold">May 20, 2026</p>
-          </div>
-          <div class="flex items-center gap-3">
-            <div class="size-2 bg-chrome-500 rotate-45"></div>
-            <p class="text-slate-300">08:00 AM — Registration</p>
-          </div>
-          <div class="flex items-center gap-3">
-            <div class="size-2 bg-chrome-500 rotate-45"></div>
-            <p class="text-slate-300">Main Square Amphitheater</p>
-          </div>
+    <div class="relative min-w-[85vw] md:min-w-0 snap-center rounded-sm border border-slate-800 bg-asphalt-900 p-8 transition-transform hover:border-gold-500/50">
+      <span class="text-chrome-400 font-sans text-xs font-bold uppercase tracking-widest">Service</span>
+      <h3 class="font-headline text-gold-500 my-4 text-4xl">Annual Charity Rally</h3>
+      
+      <div class="flex flex-col gap-4 mt-8">
+        <div class="flex items-center gap-3">
+          <div class="size-2 bg-gold-500 rotate-45"></div>
+          <p class="text-divine-white font-bold">May 20, 2026</p>
         </div>
-        <div class="absolute -bottom-10 left-1/2 flex -translate-x-1/2 items-center gap-2">
+        <div class="flex items-center gap-3">
+          <div class="size-2 bg-chrome-500 rotate-45"></div>
+          <p class="text-slate-300">08:00 AM — Registration</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="size-2 bg-chrome-500 rotate-45"></div>
+          <p class="text-slate-300">Main Square Amphitheater</p>
+        </div>
+      </div>
+      <div class="absolute -bottom-10 left-1/2 flex -translate-x-1/2 items-center gap-2 md:hidden">
         <div class="size-1.5 rounded-full bg-slate-700"></div>
         <div class="size-1.5 rounded-full bg-slate-700"></div> 
         <div class="size-1.5 rounded-full bg-gold-500"></div>
       </div>
-      </div>
-
     </div>
-  
-      <svg xmlns="http://www.w3.org/2000/svg" class="size-6 absolute right-2  top-1/2 z-20 -translate-y-1/2 transition-all hover:scale-110 active:scale-95" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-      </svg>
+  </div>
 
+  <svg xmlns="http://www.w3.org/2000/svg" class="md:hidden size-6 absolute left-2 top-1/2 z-20 -translate-y-1/2 text-chrome-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+  </svg>
 
-    <div class="absolute bottom-8 left-1/2 z-10 -translate-x-1/2">
-  <a href="#services" class="flex flex-col items-center gap-1">
-    <span class="font-sans text-[10px] font-extrabold tracking-[0.2em] uppercase text-chrome-400 opacity-70">What We Do</span>
+  <svg xmlns="http://www.w3.org/2000/svg" class="md:hidden size-6 absolute right-2 top-1/2 z-20 -translate-y-1/2 text-chrome-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+  </svg>
+
+  <div class="absolute bottom-8 left-1/2 z-10 -translate-x-1/2">
+    <a href="#services" class="flex flex-col items-center gap-1">
+      <span class="font-sans text-[10px] font-extrabold tracking-[0.2em] uppercase text-chrome-400 opacity-70">What We Do</span>
       <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
       </svg>
-  </a>
+    </a>
   </div>
 </section>
 
-<section id="services" class="snap-center relative flex min-h-dvh flex-col justify-center bg-asphalt-950 ">
+<section id="services" class="snap-center relative flex min-h-dvh flex-col justify-center bg-asphalt-950">
 
-   <div class="absolute top-4 left-1/2 z-10 -translate-x-1/2">
-      <a 
-        href="#events" 
-        class="group flex flex-col items-center gap-1 transition-opacity hover:opacity-100 opacity-70"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7" />
-        </svg>
-      </a>
-    </div>
+  <div class="bg-asphalt-900 border-b border-slate-800 px-6 py-6 mt-12 md:py-12">
+    <div class="mx-auto flex max-w-lg md:max-w-2xl items-center gap-6 md:gap-10">
+      <div class="relative shrink-0">
+        <div class="absolute -inset-1 rounded-sm border border-gold-500/30"></div>
+        <img src="/christ-for-life-president.jpg" class="size-20 rounded-sm object-cover grayscale md:size-32" alt="George Velazquez" />
+      </div>
 
-<div class="bg-asphalt-900 border-b border-slate-800 px-6 py-6 mt-12">
-  <div class="mx-auto flex max-w-lg items-center gap-6">
-    <div class="relative shrink-0">
-      <div class="absolute -inset-1 rounded-sm border border-gold-500/30"></div>
-      <img src="/cflmc/christ-for-life-president.jpg" class="size-20 rounded-sm object-cover grayscale md:size-28" alt="George Velazquez" />
-    </div>
-
-    <div class="flex flex-col gap-1">
-      <span class="text-gold-500 font-sans text-[9px] font-black uppercase tracking-[0.2em]">Club Leadership</span>
-      <h3 class="font-headline text-2xl text-divine-white md:text-3xl">George Velazquez</h3>
-      
-      <div class="flex items-center gap-4 mt-1">
-        <p class="text-chrome-400 font-sans text-xs font-bold uppercase tracking-widest">Samurai</p>
-        <a href="mailto:contact@cflmm.com" class="flex items-center gap-2 rounded-full bg-gold-500/10 px-3 py-1 text-gold-500 transition-colors hover:bg-gold-500/20 active:scale-95">
-          <svg xmlns="http://www.w3.org/2000/svg" class="size-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-          </svg>
-          <span class="font-sans text-[10px] font-black uppercase tracking-tighter">Contact</span>
-        </a>
+      <div class="flex flex-col gap-1 md:gap-2">
+        <span class="text-gold-500 font-sans text-[9px] md:text-xs font-black uppercase tracking-[0.2em]">Club Leadership</span>
+        <h3 class="font-headline text-2xl text-divine-white md:text-4xl/tight">George Velazquez</h3>
+        
+        <div class="flex items-center gap-4 mt-1 md:mt-2">
+          <p class="text-chrome-400 font-sans text-xs md:text-sm font-bold uppercase tracking-widest">Samurai</p>
+          <a href="mailto:contact@cflmm.com" class="flex items-center gap-2 rounded-full bg-gold-500/10 px-3 py-1 md:px-5 md:py-2 text-gold-500 transition-colors hover:bg-gold-500/20 active:scale-95">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-3.5 md:size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <span class="font-sans text-[10px] md:text-xs font-black uppercase tracking-tighter">Contact</span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-  <div class="px-8 py-8">
-    <div class="mx-auto max-w-lg">
-      <h2 class="text-gold-500 font-sans text-xs font-black tracking-[0.2em] uppercase mb-8 flex items-center gap-4">
+  <div class="px-8 py-8 md:py-16">
+    <div class="mx-auto max-w-lg md:max-w-2xl">
+      <h2 class="text-gold-500 font-sans text-xs md:text-sm font-black tracking-[0.2em] uppercase mb-8 md:mb-12 flex items-center gap-4">
         <span class="h-px w-8 bg-gold-900"></span>
         Chaplain Services
       </h2>
       
-      <ul class="grid grid-cols-1 gap-y-3 font-sans text-sm md:grid-cols-2 md:gap-x-8">
+      <ul class="grid grid-cols-1 gap-y-3 font-sans text-sm md:text-lg/7 md:grid-cols-2 md:gap-x-12 md:gap-y-6">
         <li class="flex items-center gap-3 py-2 border-b border-asphalt-900 text-slate-300">
           <span class="text-gold-500">†</span> Motorcycle Blessings
         </li>
@@ -309,18 +319,18 @@
     </div>
   </div>
 
-  <div class="px-8 pb-12">
-    <div class="mx-auto max-w-lg grid grid-cols-1 gap-4 sm:grid-cols-2">
-      <div class="sm:col-span-2 flex items-center justify-between rounded-sm border border-asphalt-900 bg-asphalt-900/30 p-4 px-8">
-        <span class="font-sans text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Follow Us</span>
-        <div class="flex gap-6">
+  <div class="px-8 pb-12 md:pb-20">
+    <div class="mx-auto max-w-lg md:max-w-2xl grid grid-cols-1 gap-4 sm:grid-cols-2">
+      <div class="sm:col-span-2 flex items-center justify-between rounded-sm border border-asphalt-900 bg-asphalt-900/30 p-4 px-8 md:p-8">
+        <span class="font-sans text-[10px] md:text-xs font-black uppercase tracking-[0.2em] text-slate-500">Follow Us</span>
+        <div class="flex gap-6 md:gap-10">
           <a href="#" class="text-gold-500 hover:text-divine-white transition-colors">
-            <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-6 md:size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
             </svg>
           </a>
           <a href="#" class="text-gold-500 hover:text-divine-white transition-colors">
-            <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-6 md:size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"/>
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01" />
             </svg>
@@ -328,82 +338,104 @@
         </div>
       </div>
     </div>
+  </div>
 
-  
- <div class="absolute bottom-8 left-1/2 z-10 -translate-x-1/2">
-  <a href="#navigation" class="flex flex-col items-center gap-1">
-    <span class="font-sans text-[10px] font-extrabold tracking-[0.2em] uppercase text-chrome-400 opacity-70">More Information</span>
-      <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <div class="absolute bottom-8 left-1/2 z-10 -translate-x-1/2">
+    <a href="#navigation" class="flex flex-col items-center gap-1">
+      <span class="font-sans text-[10px] md:text-xs font-extrabold tracking-[0.2em] uppercase text-chrome-400 opacity-70">More Information</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="size-5 md:size-7 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
       </svg>
-  </a>
+    </a>
   </div>
 </section>
 
 <section id="navigation" class="snap-start relative flex min-h-dvh flex-col items-center justify-center bg-asphalt-950 px-6 text-center">
-  
-  <div class="absolute top-8 left-1/2 z-10 -translate-x-1/2">
-    <a href="#services" class="group flex flex-col items-center gap-1 transition-opacity opacity-70 hover:opacity-100">
-      <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7" />
-      </svg>
-    </a>
+
+  <div class="my-12 md:mb-20">
+    <span class="text-gold-500 font-sans text-xs md:text-sm font-black uppercase tracking-[0.4em]">Explore Further</span>
+    <div class="mx-auto mt-4 h-px w-12 md:w-20 bg-gold-900"></div>
   </div>
 
-  <div class="mb-12">
-    <span class="text-gold-500 font-sans text-xs font-black uppercase tracking-[0.4em]">Explore Further</span>
-    <div class="mx-auto mt-4 h-px w-12 bg-gold-900"></div>
-  </div>
-
-  <nav class="flex w-full max-w-md flex-col gap-4">
+  <nav class="flex w-full max-w-md md:max-w-2xl flex-col gap-4 md:gap-6">
     
-    <a href="/support" class="group relative overflow-hidden rounded-sm border border-slate-800 bg-asphalt-900 p-8 transition-all hover:border-gold-500/50 active:scale-95">
-      <h3 class="font-headline text-3xl text-divine-white group-hover:text-gold-500 transition-colors">Ministry Support</h3>
-      <p class="font-sans text-[10px] uppercase tracking-widest text-chrome-500 mt-2">Partnership & Giving</p>
+    <a href="/support.html" class="group relative overflow-hidden rounded-sm border border-slate-800 bg-asphalt-900 p-8 md:p-12 transition-all hover:border-gold-500/50 active:scale-95">
+      <h3 class="font-headline text-3xl md:text-5xl text-divine-white group-hover:text-gold-500 transition-colors">Support Our Ministry</h3>
+      <p class="font-sans text-[10px] md:text-xs uppercase tracking-widest text-chrome-500 mt-2 md:mt-4">Partnership & Giving</p>
     </a>
 
-    <a href="/legacy" class="group relative overflow-hidden rounded-sm border border-slate-800 bg-asphalt-900 p-8 transition-all hover:border-gold-500/50 active:scale-95">
-      <h3 class="font-headline text-3xl text-divine-white group-hover:text-gold-500 transition-colors">CFL Legacy Wall</h3>
-      <p class="font-sans text-[10px] uppercase tracking-widest text-chrome-500 mt-2">Honoring the Brotherhood</p>
+    <a href="/legacy.html" class="group relative overflow-hidden rounded-sm border border-slate-800 bg-asphalt-900 p-8 md:p-12 transition-all hover:border-gold-500/50 active:scale-95">
+      <h3 class="font-headline text-3xl md:text-5xl text-divine-white group-hover:text-gold-500 transition-colors">Join the Legacy Wall</h3>
+      <p class="font-sans text-[10px] md:text-xs uppercase tracking-widest text-chrome-500 mt-2 md:mt-4">Honoring the Brotherhood</p>
     </a>
 
-    <a href="/prayer" class="group relative overflow-hidden rounded-sm border border-slate-800 bg-asphalt-900 p-8 transition-all hover:border-gold-500/50 active:scale-95">
-      <h3 class="font-headline text-3xl text-divine-white group-hover:text-gold-500 transition-colors">Prayer Requests</h3>
-      <p class="font-sans text-[10px] uppercase tracking-widest text-chrome-500 mt-2">Intercession & Support</p>
+    <a href="/prayer" class="group relative overflow-hidden rounded-sm border border-slate-800 bg-asphalt-900 p-8 md:p-12 transition-all hover:border-gold-500/50 active:scale-95">
+      <h3 class="font-headline text-3xl md:text-5xl text-divine-white group-hover:text-gold-500 transition-colors">View Prayer Requests</h3>
+      <p class="font-sans text-[10px] md:text-xs uppercase tracking-widest text-chrome-500 mt-2 md:mt-4">Intercession & Support</p>
     </a>
 
-    <a href="/gallery" class="group relative overflow-hidden rounded-sm border border-slate-800 bg-asphalt-900 p-8 transition-all hover:border-gold-500/50 active:scale-95">
-      <h3 class="font-headline text-3xl text-divine-white group-hover:text-gold-500 transition-colors">Media Gallery</h3>
-      <p class="font-sans text-[10px] uppercase tracking-widest text-chrome-500 mt-2">Life on the Road</p>
-    </a>
+    <!-- <a href="/gallery" class="group relative overflow-hidden rounded-sm border border-slate-800 bg-asphalt-900 p-8 md:p-12 transition-all hover:border-gold-500/50 active:scale-95">
+      <h3 class="font-headline text-3xl md:text-5xl text-divine-white group-hover:text-gold-500 transition-colors">Media Gallery</h3>
+      <p class="font-sans text-[10px] md:text-xs uppercase tracking-widest text-chrome-500 mt-2 md:mt-4">Life on the Road</p>
+    </a> -->
 
   </nav>
 </section>
 
-  <footer class="mt-auto bg-asphalt-900 px-8 py-12">
-    <div class="mx-auto max-w-lg flex flex-col gap-8">
-      <div class="flex flex-col gap-1">
-        <h4 class="text-gold-500 text-[10px] font-black uppercase tracking-widest">Location</h4>
-        <address class="text-divine-white/80 font-sans not-italic text-sm/6">
-          6156 W Grand Ave<br />
-          Chicago, IL, United States
-        </address>
-      </div>
+</main>
+
+  <footer class="bg-asphalt-950 border-t border-slate-900 px-6 py-12 md:py-24 snap-start">
+  <div class="mx-auto max-w-lg md:max-w-7xl">
+    <div class="grid grid-cols-1 gap-12 md:grid-cols-3 md:items-start">
       
-      <div class="flex flex-col gap-1">
-        <h4 class="text-gold-500 text-[10px] font-black uppercase tracking-widest">Inquiries</h4>
-        <a href="mailto:info@cflmc.org" class="text-chrome-400 font-bold hover:text-divine-white transition-colors">
-          info@cflmc.org
-        </a>
+      <div class="flex flex-col items-center md:items-start gap-4">
+        <h2 class="font-headline text-3xl md:text-5xl text-divine-white">CFL</h2>
+        <p class="font-sans text-[10px] md:text-xs font-black uppercase tracking-[0.4em] text-gold-500">Christ For Life</p>
+        <div class="h-px w-12 bg-gold-900 md:w-24"></div>
       </div>
 
-      <div class="pt-8 border-t border-slate-800 text-center">
-        <p class="text-slate-600 text-[9px] uppercase tracking-[0.3em]">
-          © 2026 Christ For Life MC • Chicago
-        </p>
+      <div class="flex flex-col items-center md:items-start gap-6">
+        <span class="font-sans text-[10px] md:text-xs font-black uppercase tracking-widest text-chrome-500">Quick Links</span>
+        <nav class="flex flex-col items-center md:items-start gap-3 font-sans text-xs md:text-sm uppercase tracking-tighter text-slate-400">
+          <a href="#events" class="hover:text-gold-500 transition-colors">Upcoming Runs</a>
+          <a href="#services" class="hover:text-gold-500 transition-colors">Chaplain Services</a>
+          <a href="/support.html" class="hover:text-gold-500 transition-colors">Giving</a>
+          <a href="/legacy.html" class="hover:text-gold-500 transition-colors">Legacy Wall</a>
+        </nav>
+      </div>
+
+      <div class="flex flex-col items-center md:items-end gap-6">
+        <span class="font-sans text-[10px] md:text-xs font-black uppercase tracking-widest text-chrome-500">Follow Us</span>
+        <div class="flex gap-8">
+          <a href="#" class="group flex flex-col items-center gap-2 text-chrome-400 transition-all hover:text-gold-500">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-6 md:size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+            </svg>
+            <span class="font-sans text-[8px] uppercase tracking-tighter opacity-0 group-hover:opacity-100 transition-opacity">Facebook</span>
+          </a>
+
+          <a href="#" class="group flex flex-col items-center gap-2 text-chrome-400 transition-all hover:text-gold-500">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-6 md:size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="1.5"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01" />
+            </svg>
+            <span class="font-sans text-[8px] uppercase tracking-tighter opacity-0 group-hover:opacity-100 transition-opacity">Instagram</span>
+          </a>
+        </div>
       </div>
     </div>
-  </footer>
+
+    <div class="mt-16 pt-8 border-t border-asphalt-900 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p class="font-sans text-[9px] md:text-xs uppercase tracking-widest text-slate-500">
+        &copy; 2026 Christ For Life Motorcycle Ministry
+      </p>
+      <div class="flex gap-6">
+        <a href="#" class="font-sans text-[9px] md:text-xs uppercase tracking-widest text-slate-500 hover:text-chrome-400">Privacy Policy</a>
+        <a href="#" class="font-sans text-[9px] md:text-xs uppercase tracking-widest text-slate-500 hover:text-chrome-400">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>

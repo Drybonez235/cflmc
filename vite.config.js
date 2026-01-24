@@ -14,7 +14,10 @@ export default defineConfig({
       input: {
         index: resolve(__dirname, 'index.html'),
         brand: resolve(__dirname, 'brand.html'),
-      },
+        support: resolve(__dirname, 'support.html'),
+        legacy: resolve(__dirname, 'legacy.html'),
+        prayer: resolve(__dirname, 'prayer.html'),
+        },
     },
   },
 
